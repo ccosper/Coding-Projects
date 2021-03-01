@@ -27,7 +27,7 @@ int main()
 	int five_dollar_physical, ten_dollar_physical, twenty_dollar_physical, fifty_dollar_physical, hundred_dollar_physical;
 
 	// asking the user to enter in data to the console window
-
+ 
 	//Section 5(lines 32-204)
 	cout << "Please enter the number of pennies in an amount greater than or equal to zero:";
 	cin >> penny_physical;
