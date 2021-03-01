@@ -1,0 +1,250 @@
+// Clayton Cosper
+
+// Money_calculater.cpp 
+// This program takes the amount of coins or dollars entered in by the user and gives them a total.
+
+//section 1(line7-8)
+#include <iostream>
+using namespace std;
+//section 2(line100
+int main()
+{	// section 3(lines 12-23)
+	// varaible declaration with values
+	float penny = .01;
+	float nickel = .05;
+	float dime = .10;
+	float quarter = .25;
+	float half_dollar = .50;
+	int one_dollar = 1;
+	int five_dollar = 5;
+	int ten_dollar = 10;
+	int twenty_dollar = 20;
+	int fifty_dollar = 50;
+	int hundred_dollar = 100;
+	//section 4 (lines 26 and 27)
+	//variables for input from console window
+	int penny_physical, nickel_physical, dime_physical, quarter_physical, half_dollar_physical, one_dollar_physical;
+	int five_dollar_physical, ten_dollar_physical, twenty_dollar_physical, fifty_dollar_physical, hundred_dollar_physical;
+
+	// asking the user to enter in data to the console window
+
+	//Section 5(lines 32-204)
+	cout << "Please enter the number of pennies in an amount greater than or equal to zero:";
+	cin >> penny_physical;
+	
+	while (penny_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again: " << endl;
+		cout << "Please enter the number of pennies in an amount greater than or equal to zero: ";
+		cin >> penny_physical;
+	}
+
+	if (penny_physical >= 0);
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of nickels in an amount greater than or equal to zero: ";
+		cin >> nickel_physical;
+
+	}
+	
+
+	while (nickel_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again: " << endl;
+		cout << "Please enter the number of nickels in an amount greater than or equal to zero: ";
+		cin >> nickel_physical;
+	}
+
+	if (nickel_physical >= 0)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of dimes in an amount greater than or equal to zero:";
+		cin >> dime_physical;
+	
+	}
+
+
+	while (dime_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again: " << endl;
+		cout << "Please enter the number of dimes in an amount greater than or equal to zero: ";
+		cin >> dime_physical;
+	}
+
+	if (dime_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of quarteres in an amount greater than or equal to zero: ";
+		cin >> quarter_physical ;
+		cout << endl;
+	}
+		
+	while (quarter_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again: " << endl;
+		cout << "Please enter the number of quarters in an amount greater than or equal to zero: ";
+		cin >> quarter_physical ;
+	}
+
+	if (quarter_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of half dollar coins in an amount greater than or equal to zero: ";
+		cin >> half_dollar_physical ;
+		cout << endl;
+	}
+
+
+	while (half_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again: " << endl;
+		cout << "Please enter the number of half dollar coins in an amount greater than or equal to zero: ";
+		cin >> half_dollar_physical ;
+	}
+	if (half_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of one dollar coins in an amount greater than or equal to zero: ";
+		cin >> one_dollar_physical ;
+		cout << endl;
+	}
+
+
+	while (one_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of one dollar coins in an amount greater than or equal to zero: ";
+		cin >> one_dollar_physical ;
+	}
+	if (one_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of five dollar bills in an amount greater than or equal to zero: ";
+		cin >> five_dollar_physical;
+		cout << endl;
+	}
+
+
+	while (five_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of five dollar bills in an amount greater than or equal to zero: ";
+		cin >> five_dollar_physical;
+	}
+	if (five_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of ten dollar bills in an amount greater than or equal to zero: ";
+		cin >> ten_dollar_physical;
+		cout << endl;
+	}
+
+
+	while (ten_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of ten dollar bills in an amount greater than or equal to zero: ";
+		cin >> ten_dollar_physical;
+	}
+	if (ten_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of twenty dollar bills in an amount greater than or equal to zero: ";
+		cin >> twenty_dollar_physical;
+		cout << endl;
+	}
+
+
+	while (twenty_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of twenty dollar bills in an amount greater than or equal to zero: ";
+		cin >> twenty_dollar_physical;
+	}
+	if (twenty_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of fifty dollar bills in an amount greater than or equal to zero: ";
+		cin >> fifty_dollar_physical;
+		cout << endl;
+	}
+
+
+	while (fifty_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of fifty dollar bills in an amount greater than or equal to zero: ";
+		cin >> fifty_dollar_physical;
+	}
+	if (fifty_dollar_physical >= -1)
+	{
+		cout << "  " << endl;
+		cout << "Please enter the number of hundred dollar bills in an amount greater than or equal to zero: ";
+		cin >> hundred_dollar_physical;
+		cout << endl;
+	}
+
+
+	while (hundred_dollar_physical <= -1)
+	{
+		cout << "  " << endl;
+		cout << "You have entered in a inproper answer please try again:  " << endl;
+		cout << "Please enter the number of hundred dollar bills in an amount greater than or equal to zero: ";
+		cin >> hundred_dollar_physical;
+	}
+
+
+	// section 6(lines 208-229)
+	// repeating what the user inputed to the console window
+	cout << "You have " << penny_physical << "  Pennies	" << endl;
+	cout << endl;
+	cout << "You have " << nickel_physical << " Nickels	" << endl;
+	cout << endl;
+	cout << "You have " << dime_physical << " Dimes	 " << endl;
+	cout << endl;
+	cout << "You have " << quarter_physical << " Quarters" << endl;
+	cout << endl;
+	cout << "You have " << half_dollar_physical << " Half_dollars" << endl;
+	cout << endl;
+	cout << "You have " << one_dollar_physical << " One_dollars coins" << endl;
+	cout << endl;
+	cout << "You have " << five_dollar_physical << " Five dollar bills	" << endl;
+	cout << endl;
+	cout << "You have " << ten_dollar_physical << " Ten dollar bills	 " << endl;
+	cout << endl;
+	cout << "You have " << twenty_dollar_physical << " Twenty dollar bills" << endl;
+	cout << endl;
+	cout << "You have " << fifty_dollar_physical<< " Fifty dollar bills " << endl;
+	cout << endl;
+	cout << "You have " << hundred_dollar_physical << " Hundred dollars bills" << endl;
+	
+	//section 7(lines 233-243)
+	// making equations to get the new total price of each coin
+	penny *= penny_physical;
+	nickel *= nickel_physical ;
+	dime *= dime_physical;
+	quarter *= quarter_physical;
+	half_dollar *= half_dollar_physical;
+	one_dollar *= one_dollar_physical;
+	five_dollar *= five_dollar_physical;
+	ten_dollar *= ten_dollar_physical;
+	twenty_dollar *= twenty_dollar_physical;
+	fifty_dollar *= fifty_dollar_physical;
+	hundred_dollar *= hundred_dollar_physical;
+
+	//section 8 (lines 246 and 247
+	float total = penny + nickel + dime + quarter + half_dollar + one_dollar;
+	total = total + five_dollar + ten_dollar + twenty_dollar + fifty_dollar + hundred_dollar;
+	// printing the total value of the coins to the concosle window
+	cout << " The total value of your coins is:  $" << total << " " << endl;
+};
